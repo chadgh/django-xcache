@@ -1,4 +1,19 @@
-# Getting Started
+# django-xcache
+
+`django-xcache` allows you to get expired cached values.
+
+## Supported versions
+
+### Python
+* 2.7
+* 3.4
+* 3.5
+
+### Django
+* 1.8
+* 1.9
+
+# Getting Started 
 
 ## Installation
 
