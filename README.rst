@@ -10,4 +10,4 @@ This is for low-level caching interactions.
 
 See the documentation_.
 
-.. _documentation: https://django-xcache.readthedocs.org/
+.. _documentation: https://django-xcache.readthedocs.io/

@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: django-xcache
+site_description: Django caching with backups.
+theme: readthedocs
+pages:
+    - ['index.md', 'Getting Started']
