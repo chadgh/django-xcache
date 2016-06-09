@@ -1,5 +1,9 @@
 site_name: django-xcache
 site_description: Django caching with backups.
+site_author: Chad G. Hansen
 theme: readthedocs
+repo_url: https://github.com/chadgh/django-xcache
+repo_name: GitHub
+site_dir: 'doc-build'
 pages:
     - ['index.md', 'Getting Started']
