@@ -22,9 +22,9 @@ with open(path.join(path.dirname(__file__), 'README.rst')) as readme:
 # allow setup.py to be run from any path
 chdir(path.normpath(path.join(path.abspath(__file__), pardir)))
 
-req_path = path.join(path.dirname(__file__), 'src', 'requirements.txt')
-with open(req_path) as req_file:
-    REQUIREMENTS = req_file.read().split()
+# req_path = path.join(path.dirname(__file__), 'src', 'requirements.txt')
+# with open(req_path) as req_file:
+#     REQUIREMENTS = req_file.read().split()
 
 classifiers = [
     'Intended Audience :: Developers',
@@ -52,6 +52,6 @@ setup(
     url='',
     author=AUTHOR,
     author_email=EMAIL,
-    install_requires=REQUIREMENTS,
+    # install_requires=REQUIREMENTS,
     classifiers=classifiers,
 )
