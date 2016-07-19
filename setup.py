@@ -29,7 +29,6 @@ chdir(path.normpath(path.join(path.abspath(__file__), pardir)))
 
 classifiers = [
     'Intended Audience :: Developers',
-    'License :: BSD 3-clause License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
 ]
