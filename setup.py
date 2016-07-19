@@ -6,6 +6,7 @@ PROJECT_NAME = 'django-xcache'
 DESCRIPTION = 'Keeps backups of expired cached values.'
 AUTHOR = 'Chad G. Hansen'
 EMAIL = 'chadgh@gmail.com'
+URL = 'https://github.com/chadgh/django-xcache'
 PYTHON_SUPPORTED_VERSIONS = [
     '2.7',
     '3.4',
@@ -49,7 +50,7 @@ setup(
     include_package_data=True,
     description=DESCRIPTION,
     long_description=README,
-    url='',
+    url=URL,
     author=AUTHOR,
     author_email=EMAIL,
     # install_requires=REQUIREMENTS,
